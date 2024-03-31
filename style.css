@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+  overflow: hidden;
+}
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.header h1 {
+  margin: 0;
+}
+.current-day {
+  margin-bottom: 20px;
+}
+.time-blocks {
+  border-top: 1px solid black;
+}
+.time-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px dashed #bbb;
+}
+.time-block label {
+  flex-basis:10%;
+  padding: 15px;
+}
+.time-block input {
+  flex-grow: 1;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+}
+.time-block button {
+  flex-basis: 10%;
+  padding: 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.past {
+  background-color: #d3d3d3;
+}
+.present {
+  background-color: #ff6961;
+}
+.future {
+  background-color: #77dd77
+}
