@@ -29,4 +29,6 @@ To use the application, simply click on a time block to add an event and press t
 To get started, clone this repository to your local machine:
 
 ## Live Site
-[Visit the live site](https://github.com/your-username/work-day-scheduler.git)
+[Visit the live site][live-site]
+
+[live-site]: https://piattie.github.io/Raven-Daily-Calendar/
