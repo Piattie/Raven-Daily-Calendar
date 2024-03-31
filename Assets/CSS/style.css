@@ -1,28 +1,41 @@
+/* Set default styles for the body */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
 }
+
+/* Create a container to hold the content */
 .container {
   max-width: 750px;
   margin: auto;
   overflow: hidden;
 }
+
+/* Style the header section */
 .header {
   background-color: #007bff;
   color: white;
   padding: 20px;
   text-align: center;
 }
+
+/* Style the heading within the header section */
 .header h1 {
   margin: 0;
 }
+
+/* Add margin to the current-day section */
 .current-day {
   margin-bottom: 20px;
 }
+
+/* Add border to the time-blocks section */
 .time-blocks {
   border-top: 1px solid black;
 }
+
+/* Style each time block */
 .time-block {
   display: flex;
   justify-content: space-between;
@@ -30,16 +43,22 @@ body {
   background-color: white;
   border-bottom: 1px dashed #bbb;
 }
+
+/* Style the label within each time block */
 .time-block label {
   flex-basis:10%;
   padding: 15px;
 }
+
+/* Style the input within each time block */
 .time-block input {
   flex-grow: 1;
   border: none;
   padding: 15px;
   font-size: 16px;
 }
+
+/* Style the button within each time block */
 .time-block button {
   flex-basis: 10%;
   padding: 15px;
@@ -48,12 +67,18 @@ body {
   color: white;
   cursor: pointer;
 }
+
+/* Style the past time blocks */
 .past {
   background-color: #d3d3d3;
 }
+
+/* Style the present time block */
 .present {
   background-color: #ff6961;
 }
+
+/* Style the future time blocks */
 .future {
-  background-color: #77dd77
+  background-color: #77dd77;
 }

@@ -10,7 +10,7 @@ A simple, intuitive, and interactive calendar application for scheduling your wo
 - Clickable timeblocks for adding events
 - Persistent event storage through local storage
 
-## Preview
+## Technologies
 
 - HTML
 - CSS
@@ -18,7 +18,7 @@ A simple, intuitive, and interactive calendar application for scheduling your wo
 
 ## Preview
 
-![Work Day Scheduler Preview](path/to/your/screenshot.png)
+![Work Day Scheduler Preview](./Assets/IMAGES/Screenshot.png)
 
 ## Usage
 
